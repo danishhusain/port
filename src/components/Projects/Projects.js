@@ -41,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Music Player"
               description="My personal MusicPlayer build with React-Native and JavaSCript. for Authentication I use React-Native Firebase service. Supports dark mode and easy to use."
-              ghLink="https://github.com/danishhusain/Music_Player"
+              ghLink="https://github.com/danishhusain/MusicApp"
             // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
