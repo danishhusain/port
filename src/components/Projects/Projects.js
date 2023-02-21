@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/netflix.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
@@ -46,6 +46,18 @@ function Projects() {
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Plant AI"
+              description=" This is Netflix Clone .In this i have used TMDB rest-API for data .You can use to watching movie, web series and documentary.I developed this app by using react-native and context API"
+              ghLink="https://github.com/danishhusain/Netflix"
+              // demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -56,17 +68,6 @@ function Projects() {
             // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col> */}
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
