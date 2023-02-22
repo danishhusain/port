@@ -13,7 +13,8 @@ const resumeLink =
   // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
   // old
   // "https://drive.google.com/file/d/1cseXJuc4R1F2unKlLQRsVhs4egRZUWk1/view?usp=share_link";
-  "https://drive.google.com/file/d/1RBOkiJkv2MnrxrflV3g77PyNuJbE4A39/view?usp=share_link";
+  // "https://drive.google.com/file/d/1RBOkiJkv2MnrxrflV3g77PyNuJbE4A39/view?usp=share_link";
+  "https://drive.google.com/file/d/1PtfN0p6t5vQgzJO_gce2KnOLxoCHiPGW/view?usp=share_link";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
