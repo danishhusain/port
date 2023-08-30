@@ -14,7 +14,9 @@ const resumeLink =
   // old
   // "https://drive.google.com/file/d/1cseXJuc4R1F2unKlLQRsVhs4egRZUWk1/view?usp=share_link";
   // "https://drive.google.com/file/d/1RBOkiJkv2MnrxrflV3g77PyNuJbE4A39/view?usp=share_link";
-  "https://drive.google.com/file/d/1Tv-GA_rHBEGJhmHDllhea8XWMgQ3qkqm/view?usp=share_link";
+  // "https://drive.google.com/file/d/1Tv-GA_rHBEGJhmHDllhea8XWMgQ3qkqm/view?usp=share_link";
+  "https://drive.google.com/file/d/11xBWBvr5jK6NhBoHG3SMQSmHYVMgGYD-/view?usp=drive_link"
+
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

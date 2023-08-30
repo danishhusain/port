@@ -10,6 +10,7 @@ import editor from "../../Assets/Projects/Quizller.jpg";
 // import chatify from "../../Assets/Projects/chatify.png";
 import chatify from "../../Assets/Projects/clothingApp.jpg";
 import bitsOfCode from "../../Assets/Projects/musicAPP.jpg";
+import onlyfootball from "../../Assets/Projects/onlyfootball.jpg";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -32,6 +33,16 @@ function Projects() {
               description="This is the ClothingApp to sell clothes online and this is build with React-Native, Context-API and Firebase. Have features which allows user to track own order."
               ghLink="https://github.com/danishhusain/clothingApp"
             // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={onlyfootball}
+              isBlog={false}
+              title="OnlyFootball"
+              description="OnlyFootbal is a fantasy sports app where you can create your fantasy team based on real-life matches. Join contests and win daily cash prizes.."
+              ghLink="https://github.com/danishhusain/clothingApp"
+            // demoLink="https://chatify-49.web.app/"`
             />
           </Col>
 
