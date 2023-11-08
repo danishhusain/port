@@ -10,6 +10,7 @@ import editor from "../../Assets/Projects/Quizller.jpg";
 // import chatify from "../../Assets/Projects/chatify.png";
 import chatify from "../../Assets/Projects/clothingApp.jpg";
 import bitsOfCode from "../../Assets/Projects/musicAPP.jpg";
+import NanoOmni from "../../Assets/Projects/NanoOmni.jpeg";
 import onlyfootball from "../../Assets/Projects/onlyfootball.jpg";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -48,6 +49,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={NanoOmni}
+              isBlog={false}
+              title="NanoOmni"
+              description="NanoOmni is the perfect tool for sweetHouse owners, streamlining retail operations with features to simplify day-to-day tasks and boost business success."
+              ghLink="https://github.com/danishhusain/MusicApp"
+            // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Music Player"
@@ -62,7 +73,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Netflix"
               description=" This is Netflix Clone .In this i have used TMDB rest-API for data .You can use to watching movie, web series and documentary.I developed this app by using react-native and context API"
               ghLink="https://github.com/danishhusain/Netflix"
               // demoLink="https://plant49-ai.herokuapp.com/"

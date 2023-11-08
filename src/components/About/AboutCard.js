@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Danish Razik </span>
             from <span className="purple"> Kanpur, India.</span>
-            <br />I am a pursuing B-Tech in Computer Science & Engineering in IET Ayodhya.
+            <br />I have completed my B-Tech in Computer Science & Engineering from IET Ayodhya.
             
             <br />
             <br />
